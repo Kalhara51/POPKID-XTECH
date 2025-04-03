@@ -51,7 +51,7 @@ if (!fs.existsSync(sessionDir)) {
 
 async function downloadSessionData() {
     if (!config.SESSION_ID) {
-        console.error('Please add your session to SESSION_ID env !!');
+        console.error('POPKID~B9pxwBza#zgg6nHCM3gBBLX3HmNoW2WbBtdLgGQhMiPOb0HwdDnA');
         return false;
     }
     const sessdata = config.SESSION_ID.split("Popkidmd$")[1];
